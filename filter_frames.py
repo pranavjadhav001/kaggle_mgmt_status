@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 
 
 dir_tree = os.walk('DATA/train')
-base_outpth = 'FilteredData/train'
+base_outpth = 'FilteredDataALL/train'
 os.makedirs(base_outpth,exist_ok=True)
 see_mods = ['FLAIR','T1W','T2W','T1WCE']
 see_label = 1
@@ -55,7 +55,7 @@ for dir_num,(root,dirs,files) in enumerate(dir_tree):
         
         nontumorpath = os.path.join(base_outpth,pat_id, 'nontumor')
         os.makedirs(nontumorpath,exist_ok=True)
-        print('PATIENT:',pat_id,'Modality',modality)
+        print('NUM',dir_seen//len(see_mods),'PATIENT:',pat_id,'Modality',modality)
     files = sorted(files)
     for i,file in enumerate(files):
         if pat_id_dir:
