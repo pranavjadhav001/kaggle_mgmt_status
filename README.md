@@ -1,5 +1,5 @@
 # kaggle_mgmt_status
-Attempt at [Kaggle mgmt](https://www.kaggle.com/c/rsna-miccai-brain-tumor-radiogenomic-classification competition) with [Raghav](https://github.com/PhenomenalOnee)
+Attempt at [Kaggle mgmt](https://www.kaggle.com/c/rsna-miccai-brain-tumor-radiogenomic-classification) competition with [Raghav](https://github.com/PhenomenalOnee)
 Even though there is no evidence that there is any correlation between mri brain scans and presence/absence of mgmt status  
 It was a good learning experience  
 
